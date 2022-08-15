@@ -1,8 +1,8 @@
 import React from "react";
-import ExpenseItem from "./components/ExpenseItem";
-import Expenses from "./components/Expenses";
+import ExpenseItem from "./components/Expenses/ExpenseItem";
+import Expenses from "./components/Expenses/Expenses";
 
-function App() {
+const App = () => {
 
     const expenses = [
         {title: 'Car Insurance', date: new Date(2022, 8, 14), amount: '12345'},
